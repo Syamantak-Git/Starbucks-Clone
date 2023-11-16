@@ -10,3 +10,7 @@
 .search.input:focus-visible {
     outline: none;
 } 
+.logo {
+    width: 40px;
+    height: auto;
+}
