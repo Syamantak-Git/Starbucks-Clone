@@ -17,3 +17,23 @@
     width: 40px;
     height: auto;
 }
+.nav-link {
+    position: relative;
+}
+.nav-link:focus {
+    font-weight: bolder;
+}
+.nav-link::after {
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav-link:focus::after {
+    opacity: 1;
+}
