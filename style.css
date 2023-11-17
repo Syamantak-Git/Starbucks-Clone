@@ -56,4 +56,13 @@ body {
     height: 1000px;
     width: 70%;
 }
-
+.rewards {
+    font-size: 20px;
+}
+.know-more {
+    font-size: 12px;
+    font-weight: bold;
+}
+.rewards-container {
+    background-color: #1e3932;
+}
