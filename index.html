@@ -1,61 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Starbucks Clone</title>
-    <link href="style.css" rel="stylesheet" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Starbucks Clone</title>
+		<link href="style.css" rel="stylesheet" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+	</head>
 
-  <body>
-    <div class="container-fluid p-0">
-      <div
-        class="d-flex gap-4 flex-wrap align-items-center justify-content-lg-start justify-content-center header ms-lg-5 ms-0 me-lg-5 pe-0 ps-lg-5 ps-0 pe-lg-5 pe-0"
-      >
-        <div
-          class="d-flex justify-content-center justify-content-lg-start col-lg-auto col-12 p-lg-3 p-0"
-        >
-          <img class="logo" src="Pictures/logo.png" class="logo" />
-        </div>
+	<body>
+		<nav class="navbar navbar-expand">
+			<div class="container justify-content-lg-start justify-content-center d-flex flex-wrap gap-lg-4 gap-2 gap">
+				<a href="#" class="navbar-brand col-12 col-lg-auto justify-content-lg-start justify-content-center d-flex flex-shrink-1"
+					><img class="logo" src="Pictures/logo.png"
+				/></a>
+				<ul class="navbar-nav col-12 col-lg-auto justify-content-lg-start justify-content-center d-flex gap-4 flex-shrink-1">
+					<li class="nav-item">
+						<a href="#" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Gift</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Order</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Pay</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Store</a>
+					</li>
+				</ul>
+				<div class="navbar-text ms-auto col-12 col-lg-auto justify-content-lg-start justify-content-center d-flex flex-shrink-1">
+					<div class="search badge rounded-pill border-black border-1">
+						<img src="Pictures/search.svg" />
+						<input
+							type="text"
+							class="search input"
+							placeholder="Looking for something specific?"
+							class="form-control"
+						/>
+					</div>
+				</div>
+				<div
+					class="account d-flex col-lg-auto col-12 justify-content-center ms-lg-2 ms-0 mt-0"
+				>
+					<img src="Pictures/account_thin.svg" alt="" />
+				</div>
+			</div>
+		</nav>
 
-        <div
-          class="d-flex gap-5 col-12 col-lg-auto me-lg-auto me-0 justify-content-lg-start justify-content-center"
-        >
-          <div>Home</div>
-          <div>Gift</div>
-          <div>Order</div>
-          <div>Pay</div>
-          <div>Store</div>
-        </div>
+		<!-- <div class="container-fluid p-0">
+			<div
+				class="d-flex gap-4 flex-wrap align-items-center justify-content-lg-start justify-content-center header ms-lg-5 ms-0 me-lg-5 pe-0 ps-lg-5 ps-0 pe-lg-5 pe-0"
+			>
+				<div
+					class="d-flex justify-content-center justify-content-lg-start col-lg-auto col-12 p-lg-3 p-0"
+				>
+					<img class="logo" src="Pictures/logo.png" class="logo" />
+				</div>
 
-        <div class="search badge rounded-pill border-black border-1">
-          <img src="Pictures/search.svg" />
-          <input
-            type="text"
-            class="search input"
-            placeholder="Looking for something specific?"
-            class="form-control"
-          />
-        </div>
-        <div class="account d-flex col-lg-auto col-12 justify-content-center ms-lg-2 ms-0">
-          <img src="Pictures/account_thin.svg" alt="" />
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid p-0">
-        <div class="bg-success">hi</div>
-    </div>
-  </body>
+				<div
+					class="d-flex gap-5 col-12 col-lg-auto me-lg-auto me-0 justify-content-lg-start justify-content-center"
+				>
+					<div>Home</div>
+					<div>Gift</div>
+					<div>Order</div>
+					<div>Pay</div>
+					<div>Store</div>
+				</div>
+
+				<div class="search badge rounded-pill border-black border-1">
+					<img src="Pictures/search.svg" />
+					<input
+						type="text"
+						class="search input"
+						placeholder="Looking for something specific?"
+						class="form-control"
+					/>
+				</div>
+				<div
+					class="account d-flex col-lg-auto col-12 justify-content-center ms-lg-2 ms-0"
+				>
+					<img src="Pictures/account_thin.svg" alt="" />
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid p-0">
+			<div class="bg-success">hi</div>
+		</div> -->
+	</body>
 </html>
