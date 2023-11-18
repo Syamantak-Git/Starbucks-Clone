@@ -69,4 +69,13 @@ body {
 .circle {
     width: 108px;
     height: 108px;
+    border-radius: 50%;
+}
+.circle:hover {
+    border: 2px solid #00804c;
+}
+.handpick-section > div > div {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
 }
