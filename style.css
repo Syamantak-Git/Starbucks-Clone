@@ -66,3 +66,7 @@ body {
 .rewards-container {
     background-color: #1e3932;
 }
+.circle {
+    width: 108px;
+    height: 108px;
+}
