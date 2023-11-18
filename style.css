@@ -1,81 +1,110 @@
 .search {
-    border: 1px solid black;
-    /* border-radius: 100px; */
+	border: 1px solid black;
+	/* border-radius: 100px; */
 }
 * {
-    padding: 0;
+	padding: 0;
 }
 .search.input {
-    border: 0;
-    height: auto;
-    min-width: 230px;
+	border: 0;
+	height: auto;
+	min-width: 230px;
 }
 .search.input:focus-visible {
-    outline: none;
-} 
+	outline: none;
+}
 .logo {
-    width: 40px;
-    height: auto;
+	width: 40px;
+	height: auto;
 }
 .nav-link {
-    position: relative;
-    transition: all 0.2s;
+	position: relative;
+	transition: all 0.2s;
 }
 .nav-link:focus {
-    font-weight: bolder;
+	font-weight: bolder;
 }
 .nav-link::after {
-    content: '';
-    opacity: 0;
-    transition: all 0.2s;
-    height: 2px;
-    width: 100%;
-    background-color: #00754a;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+	content: "";
+	opacity: 0;
+	transition: all 0.2s;
+	height: 2px;
+	width: 100%;
+	background-color: #00754a;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 .nav-link:focus::after {
-    opacity: 1;
+	opacity: 1;
 }
 body {
-    padding-top: 66px;
+	padding-top: 66px;
 }
 @media screen and (max-width: 992px) {
-    body {
-        padding-top: 215.5px;
-    }
+	body {
+		padding-top: 215.5px;
+	}
 }
 #header {
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	top: 0;
 }
 .box {
-    height: 1000px;
-    width: 70%;
+	height: 1000px;
+	width: 70%;
 }
 .rewards {
-    font-size: 20px;
+	font-size: 20px;
 }
 .know-more {
-    font-size: 12px;
-    font-weight: bold;
+	font-size: 12px;
+	font-weight: bold;
 }
 .rewards-container {
-    background-color: #1e3932;
+	background-color: #1e3932;
 }
 .circle {
-    width: 108px;
-    height: 108px;
-    border-radius: 50%;
+	width: 108px;
+	height: 108px;
+	border-radius: 50%;
 }
 .circle:hover {
-    border: 2px solid #00804c;
+	border: 2px solid #00804c;
+}
+.handpick-section {
+    margin-bottom: 90px;
 }
 .handpick-section > div > div {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 5px;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 5px;
 }
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-slide {
+    background-image: url(./Swiper1-Background/b1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+} */
