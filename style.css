@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .search {
@@ -78,7 +78,7 @@ body {
 	border: 2px solid #00804c;
 }
 .handpick-section {
-    margin-bottom: 90px;
+	margin-bottom: 90px;
 }
 .handpick-section > div > div {
 	font-size: 14px;
@@ -87,8 +87,9 @@ body {
 }
 .swiper {
 	width: 100%;
-	min-height: 218px;
+	min-height: 100%;
 }
+
 
 .swiper-slide {
 	text-align: center;
@@ -97,32 +98,49 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    height: inherit;
-    background-image: url(./Swiper1-Background/b1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: start;
-    min-height: inherit;
 }
-.img-container {
-    height:218px;
-    
-}
+
 .swiper-slide img {
 	display: block;
-    height: 218px;
-} 
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.swiper-slide1 {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+	background-image: url(./Swiper1-Background/b1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: start;
+	min-height: inherit;
+}
+.mySwiper2 {
+	height: 200px;
+}
+.img-container {
+	height: 218px;
+}
+.swiper-slide1 img {
+	display: block;
+	height: 218px;
+}
 .text p:nth-child(2) {
-    font-size: 25px;
-    font-weight: 600;
+	font-size: 25px;
+	font-weight: 600;
 }
 .text div:nth-child(4) {
-    font-size: 12px;
-    font-weight: 600;
+	font-size: 12px;
+	font-weight: 600;
 }
 .text p:nth-child(4) {
-    font-size: 15px;
+	font-size: 15px;
 }
 .text > p {
-    font-size: 15px;
+	font-size: 15px;
 }
