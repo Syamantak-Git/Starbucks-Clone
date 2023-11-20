@@ -120,9 +120,9 @@ body {
 	text-align: start;
 	min-height: inherit;
 }
-.mySwiper2 {
-	height: 200px;
-}
+
+
+
 .img-container {
 	height: 218px;
 }
@@ -143,4 +143,36 @@ body {
 }
 .text > p {
 	font-size: 15px;
+}
+
+.card-body > div {
+	text-align: left;
+}
+
+.card > img {
+	height: 250px;
+    object-fit: cover;
+}
+.swiper-slide2 {
+	min-width: 300px;
+}
+.card-body img {
+	height: 20px;
+	width: auto;
+}
+.card-title {
+	font-size: 14px;
+	font-weight: bold;
+} 
+.card-subtitle {
+	font-size: 10px;
+}
+.card-text {
+	font-size: 11px;
+}
+.price {
+	font-size: 14px;
+}
+.price div {
+	font-size: 12px;
 }
