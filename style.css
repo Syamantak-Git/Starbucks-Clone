@@ -90,7 +90,6 @@ body {
 	min-height: 100%;
 }
 
-
 .swiper-slide {
 	text-align: center;
 	font-size: 18px;
@@ -121,8 +120,6 @@ body {
 	min-height: inherit;
 }
 
-
-
 .img-container {
 	height: 218px;
 }
@@ -151,7 +148,7 @@ body {
 
 .card > img {
 	height: 250px;
-    object-fit: cover;
+	object-fit: cover;
 }
 .swiper-slide2 {
 	min-width: 300px;
@@ -163,7 +160,7 @@ body {
 .card-title {
 	font-size: 14px;
 	font-weight: bold;
-} 
+}
 .card-subtitle {
 	font-size: 10px;
 }
@@ -177,7 +174,8 @@ body {
 	font-size: 12px;
 }
 
-.Barista-Recommends {
+.Barista-Recommends,
+.learn-more {
 	background-color: #edebe9;
 	position: relative;
 }
@@ -186,15 +184,18 @@ body {
 	position: absolute;
 	top: 0;
 	right: 0;
+	height: 70px;
+	width: 57px;
+	z-index: 0;
 }
 
 .view-menu {
-	font-size: .8rem;
+	font-size: 0.8rem;
 	color: #00754a;
 	font-weight: 500;
 }
 .mySwiper3 .swiper-slide {
-	width:300px;
+	width: 300px;
 	padding: 20px;
 	border-radius: 3%;
 }
@@ -211,4 +212,44 @@ body {
 .mySwiper3 .btn {
 	font-size: 12px;
 	font-weight: 600;
+}
+
+.background {
+	background-image: url(./Learn-More-BG/coffee_culture_blog_web1_c6e691b286.jpg);
+	background-size: cover;
+	height: 372px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.background p {
+	font-size: 14px;
+}
+.background .btn {
+	height: 32px;
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 500;
+}
+.black {
+	background: linear-gradient(
+		359.89deg,
+		rgba(0, 0, 0, 0.74) 19.45%,
+		rgba(0, 0, 0, 0.383063) 55.07%,
+		rgba(0, 0, 0, 0) 73.63%
+	) !important;
+	position: relative;
+}
+.black:hover {
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	transition: background-color 0.3s ease;
+}
+.black > div {
+	height: 50%;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	position: absolute;
 }
