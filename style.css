@@ -176,3 +176,18 @@ body {
 .price div {
 	font-size: 12px;
 }
+
+.Barista-Recommends {
+	background-color: #edebe9;
+}
+
+.view-menu {
+	font-size: .8rem;
+	color: #00754a;
+	font-weight: 500;
+}
+
+.mySwiper3 .card-img {
+	height: 80px;
+	width: 80px;
+}
