@@ -253,3 +253,13 @@ body {
 	left: 0;
 	position: absolute;
 }
+
+.footer {
+	background-color: #0e382c;
+}
+.footer h4 {
+	font-size: 18px;
+}
+.footer p {
+	font-size: 14px;
+}
