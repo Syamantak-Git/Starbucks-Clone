@@ -1,0 +1,9 @@
+.breadcrumb-con {
+    padding: 10px;
+}
+.breadcrumb {
+    li {
+        font-size: 14px;
+        padding: 0 12px;
+    }
+}
