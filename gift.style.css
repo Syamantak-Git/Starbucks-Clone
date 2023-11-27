@@ -18,6 +18,7 @@
  }
  .card-con {
     position: relative;
+    min-width: 392px;
     padding: 10px 20px;
     .btn {
         font-size: 12px;

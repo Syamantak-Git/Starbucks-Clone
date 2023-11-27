@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Order</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="order.style.css" />
+        <link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+        <script
+			defer
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<nav
+			class="navbar navbar-expand bg-light border-bottom border-1"
+			id="header"
+		>
+			<div
+				class="container justify-content-lg-start justify-content-center d-flex flex-wrap gap-lg-4 gap-2 gap"
+			>
+				<a
+					href="#"
+					class="navbar-brand col-12 col-lg-auto justify-content-lg-start justify-content-center d-flex flex-shrink-1"
+					><img class="logo" src="Pictures/logo.png" />
+				</a>
+				<ul
+					class="navbar-nav col-12 col-lg-auto justify-content-lg-start justify-content-center d-flex gap-4 flex-shrink-1"
+				>
+					<li class="nav-item">
+						<a href="./index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="./gift.html" class="nav-link">Gift</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link" id="order">Order</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Pay</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Store</a>
+					</li>
+				</ul>
+				<div
+					class="navbar-text ms-auto col-12 col-lg-auto justify-content-lg-start justify-content-center d-flex align-items-center"
+				>
+					<div class="search badge rounded-pill border-black border-1">
+						<img src="Pictures/search.svg" />
+						<input
+							type="text"
+							class="search input"
+							placeholder="Looking for something specific?"
+							class="form-control align-self-center"
+						/>
+					</div>
+				</div>
+				<div
+					class="account d-flex col-lg-auto col-12 justify-content-center ms-lg-2 ms-0 mt-0"
+				>
+					<img src="Pictures/account_thin.svg" alt="" />
+				</div>
+			</div>
+		</nav>
+        <div class="container breadcrumb-con">
+            <nav style="--bs-breadcrumb-divider: '>';">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">Home</li>
+                    <li class="breadcrumb-item">Order</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="fluid-container select-store">
+            <div class="container d-flex align-items-center flex-wrap justify-content-between">
+                <div class="search-store">
+                    <img src="./order/store-locate/Location icon 3.svg" alt="">
+                    <input type="text" placeholder="No Store Selected">
+                    <img src="./order/store-locate/clock.svg" class="time">
+                    <span>mins</span>
+                </div>
+                <div class="tab d-flex">
+                    <div class="first d-flex align-items-center">
+                        <img src="order/store-locate/bike.svg" class="" alt="">
+                        Delivery
+                    </div>
+                    <div class="middle d-flex align-items-center">
+                        <img src="./order/store-locate/Dinein.svg" alt="">
+                        Dine&#8209In
+                    </div>
+                    <div class="last d-flex align-items-center">
+                        <img src="./order/store-locate/white-house.svg" alt="">
+                        Takeaway
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
