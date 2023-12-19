@@ -1,0 +1,10 @@
+.breadcrumb-con {
+	padding: 10px;
+}
+.breadcrumb {
+	font-family: SoDoSans_Light, Helvetica, sans-serif !important;
+	li {
+		font-size: 14px;
+		/* padding: 0 12px; */
+	}
+}

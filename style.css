@@ -44,11 +44,11 @@
 	opacity: 1;
 	
 }
-#home, #gift, #order {
+#home, #gift, #order, #store {
 	position: relative;
 	font-weight: bold;
 }
-#home::after, #gift::after, #order::after {
+#home::after, #gift::after, #order::after, #store::after {
 	content: "";
 	opacity: 1;
 	transition: all 0.2s;
