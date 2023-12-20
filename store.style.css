@@ -8,3 +8,11 @@
 		/* padding: 0 12px; */
 	}
 }
+
+.search-list-map-container {
+	margin-top: -25px;
+	.search-con {
+		background-color: #1e3932;
+	}
+
+}
