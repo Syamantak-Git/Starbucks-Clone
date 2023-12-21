@@ -79,8 +79,8 @@
 				</ol>
 			</nav>
 		</div>
-		<div class="container d-flex search-list-map-container">
-			<div class="col-4 store-list">
+		<div class="container justify-content-center d-flex search-list-map-container flex-wrap">
+			<div class="col-md-4 col-12 store-list">
 				<div class="p-2 search-con">
 					<div
 						class="d-flex navbar-text ms-auto col-12 col-lg-auto justify-content-center d-flex align-items-center"
@@ -104,7 +104,7 @@
 					</div>
 					<h6>Sorry! we can't seem to spot you.</h6>
 					<p>Please enable your location to find the nearest Starbucks</p>
-					<div class="d-flex justify-content-center">
+					<div class="d-flex justify-content-center flex-shrink-1">
 						<button
 							class="custom-btn full-width-btn btn-loc-manual mt-3"
 						>
@@ -113,7 +113,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-8 map"></div>
+			<div class="col-8 bg-light d-flex position-relative">
+				<div class="position-absolute map">
+					<img src="./mapsc.png" alt="" class="rounded-4">
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
