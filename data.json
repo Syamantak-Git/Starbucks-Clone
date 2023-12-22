@@ -1,0 +1,26 @@
+[
+    {
+        "backgroundImg": "i1.png",
+        "title": "Score Big Savings With",
+        "code": "STARBUCKS125",
+        "description": "Get your exclusive delivery discount code - \"STARBUCKS125\" - for a FLAT ₹125 on Swiggy & Zomato.",
+        "buttonText": "Know more",
+        "price": "₹125.oo"
+    },
+    {
+        "backgroundImg": "i1.png",
+        "title": "Score Big Savings With this is 2nd one",
+        "code": "STARBUCKS125",
+        "description": "Get your exclusive delivery discount code - \"STARBUCKS125\" - for a FLAT ₹125 on Swiggy & Zomato.",
+        "buttonText": "Know more",
+        "price": "₹125.oo"
+    },
+    {
+        "backgroundImg": "i1.png",
+        "title": "Score Big Savings With 3rd one",
+        "code": "STARBUCKS125",
+        "description": "Get your exclusive delivery discount code - \"STARBUCKS125\" - for a FLAT ₹125 on Swiggy & Zomato.",
+        "buttonText": "Know more",
+        "price": "₹125.oo"
+    }
+]
