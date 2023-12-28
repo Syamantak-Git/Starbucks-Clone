@@ -3,7 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+.navbar {
+	input[type="text"] {
+		background-color: #f8f9fa;
+	}
+}
 .search {
 	border: 1px solid black;
 	/* border-radius: 100px; */
@@ -132,7 +136,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: inherit;
-	background-image: url(./Swiper1-Background/b1.png);
+	background-image: url(./images/home_page/Swiper1-Background/b1.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: start;
@@ -234,7 +238,7 @@ body {
 }
 
 .background {
-	background-image: url(./Learn-More-BG/coffee_culture_blog_web1_c6e691b286.jpg);
+	background-image: url(./images/home_page/Learn-More-BG/coffee_culture_blog_web1_c6e691b286.jpg);
 	background-size: cover;
 	height: 372px;
 	border-bottom-left-radius: 10px;

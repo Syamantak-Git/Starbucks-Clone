@@ -1,4 +1,4 @@
-fetch("data.json")
+fetch("./json_data/data.json")
 	.then((response) => {
 		if (!response.ok) {
 			throw new Error("Something Wrong");
@@ -16,7 +16,7 @@ fetch("data.json")
 			const imgContainer = document.createElement("div");
 			imgContainer.className = "img-container";
 			const img = document.createElement("img");
-			img.src = `Swiper1-Background/${item.backgroundImg}`;
+			img.src = `assets/images/home_page/Swiper1-Background/${item.backgroundImg}`;
 			imgContainer.appendChild(img);
 
 			const textDiv = document.createElement("div");

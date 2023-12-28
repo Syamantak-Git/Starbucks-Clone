@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Starbucks Clone</title>
-		<link href="style.css" rel="stylesheet" />
+		<link href="./assets/style.css" rel="stylesheet" />
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 			rel="stylesheet"
@@ -22,7 +22,7 @@
 			crossorigin="anonymous"
 		></script>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-		<script src="fetchImplementation.js"></script>
+		<script src="./javascript/fetchImplementation.js"></script>
 	</head>
 
 	<body>
@@ -34,9 +34,9 @@
 				class="container justify-content-lg-start justify-content-center d-flex flex-wrap gap-lg-4 gap-2 gap"
 			>
 				<a
-					href="#"
+					href="./index.html"
 					class="navbar-brand col-12 col-lg-auto justify-content-lg-start justify-content-center d-flex flex-shrink-1"
-					><img class="logo" src="Pictures/logo.png" />
+					><img class="logo" src="./assets/images/header/logo.png" />
 				</a>
 				<ul
 					class="navbar-nav col-12 col-lg-auto justify-content-lg-start justify-content-center d-flex gap-4 flex-shrink-1"
@@ -45,35 +45,35 @@
 						<a href="#" class="nav-link" id="home">Home</a>
 					</li>
 					<li class="nav-item">
-						<a href="./gift.html" class="nav-link">Gift</a>
+						<a href="./pages/gift.html" class="nav-link">Gift</a>
 					</li>
 					<li class="nav-item">
-						<a href="./order.html" class="nav-link">Order</a>
+						<a href="./pages/order.html" class="nav-link">Order</a>
 					</li>
 					<li class="nav-item">
 						<a href="#" class="nav-link">Pay</a>
 					</li>
 					<li class="nav-item">
-						<a href="./store.html" class="nav-link">Store</a>
+						<a href="./pages/store.html" class="nav-link">Store</a>
 					</li>
 				</ul>
 				<div
 					class="navbar-text ms-auto col-12 col-lg-auto justify-content-lg-start justify-content-center d-flex align-items-center"
 				>
 					<div class="search badge rounded-pill border-black border-1">
-						<img src="Pictures/search.svg" />
+						<img src="./assets/images/header/search.svg" />
 						<input
 							type="text"
 							class="search input"
 							placeholder="Looking for something specific?"
-							class="form-control align-self-center"
+							class="form-control align-self-center bg-light"
 						/>
 					</div>
 				</div>
 				<div
 					class="account d-flex col-lg-auto col-12 justify-content-center ms-lg-2 ms-0 mt-0"
 				>
-					<img src="Pictures/account_thin.svg" alt="" />
+					<img src="./assets/images/home_page/account_thin.svg" alt="" />
 				</div>
 			</div>
 		</nav>
@@ -100,7 +100,7 @@
 					class="container col-auto m-0 d-flex flex-column justify-content-center align-items-center"
 				>
 					<img
-						src="Handcrafted-curations/Bestseller.jpg"
+						src="./assets/images/home_page/Handcrafted-curations/Bestseller.jpg"
 						class="circle"
 						alt=""
 					/>
@@ -109,20 +109,20 @@
 				<div
 					class="container col-auto m-0 d-flex flex-column justify-content-center align-items-center"
 				>
-					<img src="Handcrafted-curations/Drinks.jpg" class="circle" alt="" />
+					<img src="./assets/images/home_page/Handcrafted-curations/Drinks.jpg" class="circle" alt="" />
 					<div>Drinks</div>
 				</div>
 				<div
 					class="container col-auto m-0 d-flex flex-column justify-content-center align-items-center"
 				>
-					<img src="Handcrafted-curations/Food.jpg" class="circle" alt="" />
+					<img src="./assets/images/home_page/Handcrafted-curations/Food.jpg" class="circle" alt="" />
 					<div>Food</div>
 				</div>
 				<div
 					class="container col-auto m-0 d-flex flex-column justify-content-center align-items-center"
 				>
 					<img
-						src="Handcrafted-curations/Merchandise.jpg"
+						src="./assets/images/home_page/Handcrafted-curations/Merchandise.jpg"
 						class="circle"
 						alt=""
 					/>
@@ -132,7 +132,7 @@
 					class="container col-auto m-0 d-flex flex-column justify-content-center align-items-center"
 				>
 					<img
-						src="Handcrafted-curations/CoffeeAtHome.jpg"
+						src="./assets/images/home_page/Handcrafted-curations/CoffeeAtHome.jpg"
 						class="circle"
 						alt=""
 					/>
@@ -142,7 +142,7 @@
 					class="container col-auto m-0 d-flex flex-column justify-content-center align-items-center"
 				>
 					<img
-						src="Handcrafted-curations/ReadyToEat.jpg"
+						src="./assets/images/home_page/Handcrafted-curations/ReadyToEat.jpg"
 						class="circle"
 						alt=""
 					/>
@@ -152,12 +152,7 @@
 		</div>
 		<div class="container">
 			<div class="swiper mySwiper1">
-				<div class="swiper-wrapper" id="mySwiper1">
-
-					
-
-					
-					
+				<div class="swiper-wrapper" id="mySwiper1">			
 				</div>
 				<div class="swiper-button-next"></div>
 				<div class="swiper-button-prev"></div>
@@ -177,9 +172,9 @@
 				<div class="swiper-wrapper flex-shrink-0">
 					<div class="swiper-slide swiper-slide2 rounded-3">
 						<div class="card" style="flex-shrink: 0">
-							<img class="card-img-top" src="Latest-Offerings/102253.webp" />
+							<img class="card-img-top" src="./assets/images/home_page/Latest-Offerings/102253.webp" />
 							<div class="card-body bg-light">
-								<img src="veg.svg" />
+								<img src="././assets/images/veg.svg" />
 								<div class="card-title">Pumpkin Spice Latte</div>
 								<div class="card-subtitle">SHORT(237 ML) 219 Kcal</div>
 								<div class="card-text">
@@ -199,9 +194,9 @@
 					</div>
 					<div class="swiper-slide swiper-slide2 rounded-3">
 						<div class="card" style="flex-shrink: 0">
-							<img class="card-img-top" src="Latest-Offerings/102253.webp" />
+							<img class="card-img-top" src="./assets/images/home_page/Latest-Offerings/102253.webp" />
 							<div class="card-body bg-light">
-								<img src="veg.svg" />
+								<img src="./assets/images/veg.svg" />
 								<div class="card-title">Pumpkin Spice Latte</div>
 								<div class="card-subtitle">SHORT(237 ML) 219 Kcal</div>
 								<div class="card-text">
@@ -221,9 +216,9 @@
 					</div>
 					<div class="swiper-slide swiper-slide2 rounded-3">
 						<div class="card" style="flex-shrink: 0">
-							<img class="card-img-top" src="Latest-Offerings/102253.webp" />
+							<img class="card-img-top" src="./assets/images/home_page/Latest-Offerings/102253.webp" />
 							<div class="card-body bg-light">
-								<img src="veg.svg" />
+								<img src="./assets/images/veg.svg" />
 								<div class="card-title">Pumpkin Spice Latte</div>
 								<div class="card-subtitle">SHORT(237 ML) 219 Kcal</div>
 								<div class="card-text">
@@ -243,9 +238,9 @@
 					</div>
 					<div class="swiper-slide swiper-slide2 rounded-3">
 						<div class="card" style="flex-shrink: 0">
-							<img class="card-img-top" src="Latest-Offerings/102253.webp" />
+							<img class="card-img-top" src="./assets/images/home_page/Latest-Offerings/102253.webp" />
 							<div class="card-body bg-light">
-								<img src="veg.svg" />
+								<img src="./assets/images/veg.svg" />
 								<div class="card-title">Pumpkin Spice Latte</div>
 								<div class="card-subtitle">SHORT(237 ML) 219 Kcal</div>
 								<div class="card-text">
@@ -265,9 +260,9 @@
 					</div>
 					<div class="swiper-slide swiper-slide2 rounded-3">
 						<div class="card" style="flex-shrink: 0">
-							<img class="card-img-top" src="Latest-Offerings/102253.webp" />
+							<img class="card-img-top" src="./assets/images/home_page/Latest-Offerings/102253.webp" />
 							<div class="card-body bg-light">
-								<img src="veg.svg" />
+								<img src="./assets/images/veg.svg" />
 								<div class="card-title">Pumpkin Spice Latte</div>
 								<div class="card-subtitle">SHORT(237 ML) 219 Kcal</div>
 								<div class="card-text">
@@ -306,7 +301,7 @@
 			</script>
 		</div>
 		<div class="container-fluid p-5 Barista-Recommends">
-			<img src="greyleafright.svg" />
+			<img src="./assets/images/home_page/greyleafright.svg" />
 			<div class="container">
 				<div class="d-flex justify-content-between align-items-center mb-3">
 					<div>
@@ -320,9 +315,9 @@
 						<div class="swiper-slide">
 							<div class="card border-0">
 								<div class="d-flex align-items-center">
-									<img class="card-img" src="Barista-recommends/112570.webp" />
+									<img class="card-img" src="./assets/images/home_page/Barista-recommends/112570.webp" />
 									<div class="card-body justify-content-start">
-										<img src="./veg.svg" />
+										<img src="./assets/images/veg.svg" />
 										<div class="card-title">Strawberry Milkshake</div>
 
 										<div class="card-subtitle">
@@ -345,9 +340,9 @@
 						<div class="swiper-slide">
 							<div class="card border-0">
 								<div class="d-flex align-items-center">
-									<img class="card-img" src="Barista-recommends/112570.webp" />
+									<img class="card-img" src="./assets/images/home_page/Barista-recommends/112570.webp" />
 									<div class="card-body justify-content-start">
-										<img src="./veg.svg" />
+										<img src="./assets/images/veg.svg" />
 										<div class="card-title">Strawberry Milkshake</div>
 
 										<div class="card-subtitle">
@@ -370,9 +365,9 @@
 						<div class="swiper-slide">
 							<div class="card border-0">
 								<div class="d-flex align-items-center">
-									<img class="card-img" src="Barista-recommends/112570.webp" />
+									<img class="card-img" src="./assets/images/home_page/Barista-recommends/112570.webp" />
 									<div class="card-body justify-content-start">
-										<img src="./veg.svg" />
+										<img src="./assets/images/veg.svg" />
 										<div class="card-title">Strawberry Milkshake</div>
 
 										<div class="card-subtitle">
@@ -395,9 +390,9 @@
 						<div class="swiper-slide">
 							<div class="card border-0">
 								<div class="d-flex align-items-center">
-									<img class="card-img" src="Barista-recommends/112570.webp" />
+									<img class="card-img" src="./assets/images/home_page/Barista-recommends/112570.webp" />
 									<div class="card-body justify-content-start">
-										<img src="./veg.svg" />
+										<img src="./assets/images/veg.svg" />
 										<div class="card-title">Strawberry Milkshake</div>
 
 										<div class="card-subtitle">
@@ -420,9 +415,9 @@
 						<div class="swiper-slide">
 							<div class="card border-0">
 								<div class="d-flex align-items-center">
-									<img class="card-img" src="Barista-recommends/112570.webp" />
+									<img class="card-img" src="./assets/images/home_page/Barista-recommends/112570.webp" />
 									<div class="card-body justify-content-start">
-										<img src="./veg.svg" />
+										<img src="./assets/images/veg.svg" />
 										<div class="card-title">Strawberry Milkshake</div>
 
 										<div class="card-subtitle">
@@ -481,7 +476,7 @@
 		<div class="container-fluid footer mt-5 pb-5">
 			<div class="container d-flex text-white pt-5 flex-wrap">
 				<div class="logo flex-grow-1 col-md-2 mb-md-0 mb-5">
-					<img src="Pictures/logo.png">
+					<img src="./assets/images/header/logo.png">
 				</div>
 				<div class="about-us flex-grow-1 col-md-2 col-12 mb-5">
 					<h4>About Us</h4>
@@ -511,14 +506,14 @@
 					<div class="social-media flex-grow-1">
 						<h4>SOCIAL MEDIA</h4>
 						<div class="d-flex column-gap-2">
-							<img src="Pictures/instagram.svg" alt="">
-							<img src="Pictures/facebook.svg" alt="">
-							<img src="Pictures/twitter.svg" alt="">
+							<img src="./assets/images/home_page/Social_media_icons/instagram.svg" alt="">
+							<img src="./assets/images/home_page/Social_media_icons/facebook.svg" alt="">
+							<img src="./assets/images/home_page/Social_media_icons/twitter.svg" alt="">
 						</div>
 					</div>
 					<div class="d-flex flex-column">
-						<img src="Pictures/appstoreiOS.png" alt="">
-						<img src="Pictures/appstoreAndroid.png" alt="">
+						<img src="./assets/images/home_page/App_store/appstoreiOS.png" alt="">
+						<img src="./assets/images/home_page/App_store/appstoreAndroid.png" alt="">
 					</div>
 				</div>
 			</div>
